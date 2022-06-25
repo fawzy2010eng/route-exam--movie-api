@@ -1,0 +1,86 @@
+.sidenav {
+    height: 100%;
+    position: fixed;
+    width: 250;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.board {
+    width: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    position: relative;
+    top: 100%;
+}
+
+
+
+.sidenav a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.sidenav div {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 36px;
+    margin-left: 50px;
+    width: 60px;
+    background-color: aliceblue;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidenav .togglebtn {
+    cursor: pointer;
+}
+
+.search-input {
+    width: 50%;
+}
+
+/* .movies  */
+.movies .overlayed-img:hover .overlay {
+    top: 0;
+}
+
+.movies .overlayed-img {
+    border: 7px solid transparent;
+
+}
+
+.movies .overlay {
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .5;
+    transition: all 1s ease;
+    /* padding: 0 15px; */
+}
+
+.form input {
+    /* border-color: transparent; */
+}
